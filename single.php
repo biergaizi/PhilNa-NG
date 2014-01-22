@@ -10,7 +10,7 @@
 	<?php edit_post_link(__('Edit', 'philna'), '<span class="editpost">', '</span>'); ?>	
 	<span class="comments-link addcomment"><a href="#respond" title="<?php _e('Add a comment', 'philna') ?>"><?php _e('Add a comment', 'philna') ?></a></span>	
 	<span class="published"><?php the_time(__('F jS, Y', 'philna')) ?></span>
-	<span class="post-author"><a href="<?php echo get_author_posts_url(get_the_author_ID());?>"><?php the_author();?></a></span>
+	<span class="post-author"><a href="<?php echo get_author_posts_url(get_the_author_meta('ID'));?>"><?php the_author();?></a></span>
 	</div>
 
 	<div class="entry-content">

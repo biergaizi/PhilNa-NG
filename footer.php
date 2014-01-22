@@ -1,5 +1,6 @@
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://view.jquery.com/trunk/plugins/color/jquery.color.js"></script>
+<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.1/jquery.color.js"></script>
+<!-- <script type="text/javascript" src="http://view.jquery.com/trunk/plugins/color/jquery.color.js"></script> -->
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/yinheli.js"></script>
 <?php get_sidebar(); $options = get_option('philna_options');?>
 </div><!--container end-->

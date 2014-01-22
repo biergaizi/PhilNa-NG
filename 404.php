@@ -53,7 +53,7 @@ $feed = get_bloginfo('rss2_url');
 <?php else : ?>
 <form action="<?php bloginfo('home'); ?>" method="get">
 <div>
-<input type="text" class="textfield" name="s" size="24" value="<?php echo wp_specialchars($s, 1); ?>" />
+<input type="text" class="textfield" name="s" size="24" value="<?php echo esc_html($s); ?>" />
 </div>
 </form>
 <?php endif; ?>
@@ -105,7 +105,7 @@ $feed = get_bloginfo('rss2_url');
 <p>Wordpress search</p>
 <form action="<?php bloginfo('home'); ?>" method="get">
 <div class="content">
-<input type="text" class="textfield" name="s" size="24" value="<?php echo wp_specialchars($s, 1); ?>" />
+<input type="text" class="textfield" name="s" size="24" value="<?php echo esc_html($s); ?>" />
 <input class="searchbtn" type="submit" value=""/>
 </div>
 </form>

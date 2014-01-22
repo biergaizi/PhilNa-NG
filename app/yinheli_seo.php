@@ -48,7 +48,7 @@ $options = get_option('philna_options');
 
 	if(!empty($keywords)) :
 		$keywords = join(', ', $keywords);
-		echo '<meta name="keywords" content="' . wp_specialchars($keywords, 1) . '" />' . "\n";
+		echo '<meta name="keywords" content="' . esc_html($keywords) . '" />' . "\n";
 	endif;
 	/*
 	描述
@@ -72,7 +72,7 @@ $options = get_option('philna_options');
 	endif;
 
 	if($meta_desc && strlen($meta_desc) > 1) :
-		$meta_desc = wp_specialchars($meta_desc, 1);
+		$meta_desc = esc_html($meta_desc);
 		echo '<meta name="description" content="' . $meta_desc . '" />' . "\n";
 	endif;
 if($options['authorname']!=='') echo '<meta name="author" content="'.$options['authorname'].'" />' . "\n";

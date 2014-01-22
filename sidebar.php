@@ -81,7 +81,7 @@ $post = $posts[0];
 	<div class="widget_right">
 		<h3><?php _e('Categories','philna')?></h3>
 			<ul>
-			<?php wp_list_cats('sort_column=name&optioncount=0&depth=1'); ?>
+			<?php wp_list_categories('orderby=name&show_count=0&depth=1&title_li='); ?>
 			</ul>
 	</div>
 <?php endif;//east_sidebar?>

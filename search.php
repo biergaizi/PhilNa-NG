@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php $options = get_option('philna_options'); ?>
 <div class="position"><?php _e('Search Results', 'philna'); ?><strong>
-<?php printf( __('Keyword: &#8216;%1$s&#8217;', 'philna'), wp_specialchars($s, 1) ); ?></strong>
+<?php printf( __('Keyword: &#8216;%1$s&#8217;', 'philna'), esc_html($s) ); ?></strong>
 </div>
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
@@ -13,7 +13,7 @@
 	<?php edit_post_link(__('Edit', 'philna'), '<span class="editpost">', '</span>'); ?>	
 	<span class="comments-link"><?php comments_popup_link(__('No comments', 'philna'), __('1 comment', 'philna'), __('% comments', 'philna')); ?></span>	
 	<span class="published"><?php the_time(__('F jS, Y', 'philna')) ?></span>
-	<span class="post-author"><a href="<?php echo get_author_posts_url(get_the_author_ID());?>"><?php the_author();?></a></span>
+	<span class="post-author"><a href="<?php echo get_author_posts_url(get_the_author_meta('ID'));?>"><?php the_author();?></a></span>
 	</div>
 
 	<div class="entry-content">
