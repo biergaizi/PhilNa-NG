@@ -9,7 +9,7 @@ Theme Name: PhilNaNext
 
 Theme URI: algol
 
-Description: <a href="http://philna.com">yinheli's</a> first theme base on hybrid and iNove Inspired by <a href="http://www.microsoft.com/windows/windows-7/default.aspx">Microsoft Windows 7</a> and he created many functions. Doesn’t require any plugin. Since the original author disappeared and no longer maintenance the theme, I, <a href="http://biergaizi.info">Biergaizi (Tom Li)</a> started maintaining it on <a href="https://github.com/biergaizi/PhilNa-NG">my GitHub</a>, because it is one of my favorite themes.
+Description: [yinheli's](http://philna.com) first theme base on hybrid and iNove Inspired by [Microsoft Windows 7](http://www.microsoft.com/windows/windows-7/default.aspx) and he created many functions. It doesn’t require any plugin. Since the original author disappeared and no longer maintenance the theme, I, [Biergaizi (Tom Li)](http://biergaizi.info) started maintaining it on [my GitHub](https://github.com/biergaizi/PhilNa-NG), because it is one of my favorite themes.
 
 Version: 1.0.10
 
