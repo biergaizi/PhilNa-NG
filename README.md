@@ -1,5 +1,8 @@
-PhilNa-NG
+#DeleteGithub
 =========
+**Deleted!** This project is moved to [notabug.org](https://notabug.org/niconiconi/PhilNa-NG), welcome to join the free world!
+
+PhilNa-NG
 
 The continue-maintenance version of PhilNa theme for Wordpress.
 
